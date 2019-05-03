@@ -21,8 +21,10 @@ IOS type progress bar for android
 
 # Adding IOSProgressHUD to your project
 
+Gradle
+Include this in your app build.gradle
 
-step 1:Add it in your root build.gradle at the end of repositories:
+Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
 		repositories {
@@ -33,34 +35,32 @@ step 1:Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.Prashant-Chandel:Videoplayer-with-Vimeo-support:138257e15c'
-	}
+	        implementation 'com.github.Prashant-Chandel:IOS-progressbar-for--android:-SNAPSHOT'
+		}
             
 # For Maven dependency use 
 
-<repositories>
+repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-  
+	
 Step 2. Add the dependency
 
 	<dependency>
 	    <groupId>com.github.Prashant-Chandel</groupId>
-	    <artifactId>Videoplayer-with-Vimeo-support</artifactId>
-	    <version>138257e15c</version>
-	</dependency>            
+	    <artifactId>IOS-progressbar-for--android</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
             
   
-  # Code Implementation
+ 
+ # Code Implementation
   
 # Compatibility
 Android 4.4 and later
-
-Gradle
-Include this in your app build.gradle
 
 # Usage
 For a working implementation of this project see the sample app.The usage of IOSProgressHUD is pretty straight forward.
