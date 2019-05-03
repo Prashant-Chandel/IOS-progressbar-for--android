@@ -40,13 +40,14 @@ Step 2. Add the dependency
             
 # For Maven dependency use 
 step 1. add tis to build.gradle of project level 
-
+```java
 <repositories>
 	<repository>
 	    <id>jitpack.io</id>
 	    <url>https://jitpack.io</url>
 	</repository>
 </repositories>
+```
 	
 Step 2. Add the dependency
 
