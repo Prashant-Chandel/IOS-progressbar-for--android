@@ -39,6 +39,7 @@ Step 2. Add the dependency
 		}
             
 # For Maven dependency use 
+step 1. add tis to build.gradle of project level 
 
 <repositories>
 	<repository>
