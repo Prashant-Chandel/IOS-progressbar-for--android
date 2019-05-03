@@ -40,12 +40,12 @@ Step 2. Add the dependency
             
 # For Maven dependency use 
 
-repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
 	
 Step 2. Add the dependency
 
